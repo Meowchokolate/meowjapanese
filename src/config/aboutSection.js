@@ -1,52 +1,45 @@
 export const aboutSection = {
   sectionTitle: "About",
-  sectionSubTitle: "What Is The Wavy App?",
+  sectionSubTitle: "Translate English to Japanese",
   firstFeature: {
     included: true,
     icon: "star",
-    title: "Light/Dark Mode",
-    description:
-      "Wavy Theme supports light mode and dark mode to give your uses the best experience.",
+    title: "Search",
+    description: "Search for words.",
   },
   secondFeature: {
     included: true,
     icon: "star",
-    title: "Responsive",
-    description:
-      "Wavy Theme is responsive and will adapt to both desktop and mobile devices.",
+    title: "100+ Words",
+    description: "Over 100 words are already available.",
   },
   thirdFeature: {
     included: true,
     icon: "star",
-    title: "No Code",
-    description:
-      "Wavy Theme is easy to configure. You don't need to code anything.",
+    title: "Favorites",
+    description: "Add the words you like most to a favorites list.",
   },
   carousel: {
     include: true,
     title: "Features",
     subtitle: "What You Get",
     features: [
-      "SEO optimized",
-      "Light/Dark mode",
-      "Responsive design",
-      "Optimized loading speed",
-      "App Store Compliant",
-      "No code configuration",
-      "Accessibility included",
+      "Sleek black design",
+      "Simple translations",
+      "Login to save your data",
     ],
     slides: [
       {
         name: "Screen1",
-        src: process.env.PUBLIC_URL + "/images/carousel/screen1.png",
+        src: process.env.PUBLIC_URL + "/images/carousel/homemock.png",
       },
       {
         name: "Screen2",
-        src: process.env.PUBLIC_URL + "/images/carousel/screen2.png",
+        src: process.env.PUBLIC_URL + "/images/carousel/loginmock.png",
       },
       {
         name: "Screen3",
-        src: process.env.PUBLIC_URL + "/images/carousel/screen3.png",
+        src: process.env.PUBLIC_URL + "/images/carousel/searchmock.png",
       },
     ],
   },

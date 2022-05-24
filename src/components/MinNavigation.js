@@ -103,9 +103,6 @@ export default function MinNavigation({ changeTheme }) {
                 Contact
               </MainNavLink>
             </li>
-            <li>
-              <ModeUISwitch onChange={handleThemeChange} />
-            </li>
           </MainNavList>
         </MainNav>
         <MobileNavButton>

@@ -4,12 +4,12 @@ export const heroSection = {
     url: "",
   },
   playStoreButton: {
-    include: true,
+    include: false,
     url: "",
   },
-  headingText: "The Wavy App",
+  headingText: "Meow Japanese",
   descriptionText:
-    "This is the sophisticated wavy app for the innovative and cutting edge user! This theme is complete with light/dark mode, responsive design and SEO.",
+    "Meow Japanese helps you translate English words to Japanese.",
 };
 
 /*

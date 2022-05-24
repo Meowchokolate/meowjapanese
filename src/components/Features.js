@@ -42,17 +42,18 @@ const FeatureItemTitle = styled.h2`
   font-size: 2.5rem;
   line-height: 1.05;
   margin-bottom: 2rem;
-  text-align: left;
+  text-align: center;
   @media (max-width: 71em) {
     text-align: center;
   }
 `;
 
 const FeaturesBox = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
   margin: 4.2rem;
+  text-align: center;
   @media (max-width: 71em) {
     flex-direction: column;
     text-align: center;

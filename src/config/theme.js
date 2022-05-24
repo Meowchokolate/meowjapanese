@@ -5,9 +5,9 @@ export const lightTheme = {
   headerText: "#FFF",
   textSecondary: "#fff",
   background: "#363537",
-  primary: "#FF0066",
-  secondary: "#ff4757",
-  tertiary: "#BB004B",
+  primary: "#4A4A4A",
+  secondary: "#4A4A4A",
+  tertiary: "#000000",
 };
 
 export const darkTheme = {
@@ -17,8 +17,8 @@ export const darkTheme = {
   headerText: "#FFF",
   textSecondary: "#fff",
   background: "#999",
-  primary: "#FF0066",
-  secondary: "#ff4757",
+  primary: "#4A4A4A",
+  secondary: "#000000",
   tertiary: "#BB004B",
 };
 

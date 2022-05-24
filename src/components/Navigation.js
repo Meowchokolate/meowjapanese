@@ -141,9 +141,6 @@ export default function Navigation({ changeTheme }) {
                 </MainNavLink>
               </li>
             )}
-            <li>
-              <ModeUISwitch onChange={handleThemeChange} />
-            </li>
           </MainNavList>
         </MainNav>
         <MobileNavButton>

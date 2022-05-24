@@ -1,8 +1,8 @@
 export const sections = {
   about: true,
-  testimonials: true,
+  testimonials: false,
   pricing: true,
-  contact: true,
+  contact: false,
 };
 
 /*

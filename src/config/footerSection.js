@@ -11,18 +11,18 @@ export const footerSection = {
     include: true,
     url: "",
   },
-  copyright: "2022 by AppLander, All rights reserved.",
+  copyright: "2022 by Meow Japanese, All rights reserved.",
   location: {
-    include: true,
+    include: false,
     address: "123 AppLander St., 2nd Floor",
   },
   phone: {
-    include: true,
+    include: false,
     phone: "415-201-6370",
   },
   email: {
     include: true,
-    email: "hello@example.com",
+    email: "hello@meowjapanese.com",
   },
 };
 

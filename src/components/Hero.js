@@ -89,7 +89,7 @@ const HeroImageBox = styled.div`
 
 const HeroButtons = styled.div`
   display: flex;
-  justify-content: ${(props) => (!props.justifyCenter ? "center" : "left")};
+  justify-content: ${(props) => (!props.justifyCenter ? "left" : "center")};
   gap: 2rem;
   .halfWidth {
     text-align: left;
@@ -105,9 +105,10 @@ const HeroButtons = styled.div`
     }
     .threeQuarterWidth {
       width: 30%;
+      text-align: left;
     }
     .halfWidth {
-      text-align: center;
+      text-align: left;
       width: 40%;
     }
   }
@@ -139,17 +140,12 @@ export default function Hero() {
         <HeroTextBox>
           <HeroTitle>{heroSection.headingText}</HeroTitle>
           <HeroDescription>{heroSection.descriptionText}</HeroDescription>
-          <HeroButtons
-            justifyCenter={
-              heroSection.appStoreButton.include &&
-              heroSection.playStoreButton.include
-            }
-          >
+          <HeroButtons leftAlign={heroSection.appStoreButton.include}>
             {heroSection.appStoreButton.include && (
               <HeroButton
                 href={heroSection.appStoreButton.url}
                 className={classNames({
-                  rightAlign:
+                  leftAlign:
                     heroSection.appStoreButton.include &&
                     heroSection.playStoreButton.include,
                   threeQuarterWidth:

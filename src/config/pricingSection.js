@@ -1,6 +1,6 @@
 export const pricingSection = {
   sectionTitle: "Pricing",
-  sectionSubTitle: "A Package For Everyone",
+  sectionSubTitle: "",
   currency: "$",
   planDetails: "Prices include applicable taxes. You can cancel anytime.",
   plan1: {
@@ -8,21 +8,21 @@ export const pricingSection = {
     name: "Free",
     price: 0,
     unit: "per month",
-    features: ["Free Icons", "Free Images", "Free Template"],
+    features: ["100+ words", "Favorites", "Search"],
   },
   plan2: {
-    included: true,
+    included: false,
     name: "Starter",
-    price: 2.5,
-    unit: "per month",
-    features: ["Support", "Customization", "Blog"],
+    price: 5,
+    unit: "per year",
+    features: ["No Ads", "50+ more words", "Blog"],
   },
   bestValuePlan: {
     included: true,
-    name: "Deluxe",
-    price: 2.5,
-    unit: "per month",
-    features: ["Deployment", "Premium Support", "Web Panel", "Analytics"],
+    name: "Premium",
+    price: 5,
+    unit: "per year",
+    features: ["No Ads", "50+ more words"],
   },
 };
 
