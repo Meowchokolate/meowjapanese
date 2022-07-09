@@ -7,8 +7,8 @@ export const pricingSection = {
     included: true,
     name: "Free",
     price: 0,
-    unit: "per month",
-    features: ["100+ words", "Favorites", "Search"],
+    unit: "للسنة",
+    features: ["+2000 كلمة ", "المفضلة ٥٠ كلمة", "البحث"],
   },
   plan2: {
     included: false,
@@ -20,9 +20,9 @@ export const pricingSection = {
   bestValuePlan: {
     included: true,
     name: "Premium",
-    price: 5,
-    unit: "per year",
-    features: ["No Ads", "50+ more words"],
+    price: 10,
+    unit: "للسنة",
+    features: ["٥٠ كلمة للمفضلة", " دولار بالسنة.بدون إعلانات.إضافة أكثر"],
   },
 };
 

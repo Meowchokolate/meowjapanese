@@ -1,32 +1,32 @@
 export const aboutSection = {
-  sectionTitle: "About",
-  sectionSubTitle: "Translate English to Japanese",
+  sectionTitle: "حول",
+  sectionSubTitle: "ترجمة اليابانية إلى العربية",
   firstFeature: {
     included: true,
     icon: "star",
-    title: "Search",
-    description: "Search for words.",
+    title: "البحث",
+    description: "البحث عن كلمات",
   },
   secondFeature: {
     included: true,
     icon: "star",
-    title: "100+ Words",
-    description: "Over 100 words are already available.",
+    title: "2000+ كلمة",
+    description: "أكثر من 2000 كلمة متاحة",
   },
   thirdFeature: {
     included: true,
     icon: "star",
-    title: "Favorites",
-    description: "Add the words you like most to a favorites list.",
+    title: "المفضلة",
+    description: "أضف الكلمات التي تفضلها إلى قائمة المفضلة",
   },
   carousel: {
     include: true,
-    title: "Features",
-    subtitle: "What You Get",
+    title: "الميزات",
+    subtitle: "على ماذا تحصل",
     features: [
-      "Sleek black design",
-      "Simple translations",
-      "Login to save your data",
+      "تصميم أنيق أسود",
+      "ترجمات بسيطة",
+      "تسجيل الدخول لحفظ البيانات الخاصة بك",
     ],
     slides: [
       {

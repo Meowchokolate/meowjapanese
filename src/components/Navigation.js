@@ -112,11 +112,11 @@ export default function Navigation({ changeTheme }) {
         <MainNav className={classNames({ navOpen: isNavOpen })}>
           <MainNavList>
             <li>
-              <MainNavLink href="#">Home</MainNavLink>
+              <MainNavLink href="#">الصفحة الرئسية</MainNavLink>
             </li>
             {sections.about && (
               <li>
-                <MainNavLink href="#about">About</MainNavLink>
+                <MainNavLink href="#about">حول</MainNavLink>
               </li>
             )}
             {sections.features && (
@@ -131,7 +131,7 @@ export default function Navigation({ changeTheme }) {
             )}
             {sections.pricing && (
               <li>
-                <MainNavLink href="#pricing">Pricing</MainNavLink>
+                <MainNavLink href="#pricing">التسعير</MainNavLink>
               </li>
             )}
             {sections.contact && (

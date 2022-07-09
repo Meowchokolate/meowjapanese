@@ -7,9 +7,8 @@ export const heroSection = {
     include: false,
     url: "",
   },
-  headingText: "Meow Japanese",
-  descriptionText:
-    "Meow Japanese helps you translate English words to Japanese.",
+  headingText: "My Japanese",
+  descriptionText: "MyJapanese يساعدك على ترجمة الكلمات اليابانيه إلى العربية",
 };
 
 /*
